@@ -1,4 +1,4 @@
-!(https://github.com/prawitd/Customer-Analytics/blob/035c1c85e8f98820650dcf1a5af4b7879a3b50a4/churn_data.jpeg)
+![Alt text](https://github.com/prawitd/Customer-Analytics/blob/035c1c85e8f98820650dcf1a5af4b7879a3b50a4/churn_data.jpeg)
 
 
 #sample SQL query for churn scoring
