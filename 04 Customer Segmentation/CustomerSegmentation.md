@@ -1,4 +1,4 @@
-!()
+!(https://github.com/prawitd/Customer-Analytics/blob/8e1cc3e868172cfb1b1a5a34b2ff745b1b91c50f/04%20Customer%20Segmentation/customer_data.jpeg)
 
 #Here is a sample SQL query for customer segmentation
 
