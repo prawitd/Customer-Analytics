@@ -1,6 +1,6 @@
 Here is an overview of a Customer Data Platform (CDP) for e-commerce businesses based on collecting online usage data with GA4. It consists of Data Source, Data Standardize, Data Synthesize, Activation, and Destination.
 
-https://github.com/prawitd/Customer-Analytics/blob/09a7f7c94f2fb502140702987d76a2c9e6c3cda6/cdp%20ga4%20landscape_230912_212508%20(1).jpg
+![Alt text](https://github.com/prawitd/Customer-Analytics/blob/09a7f7c94f2fb502140702987d76a2c9e6c3cda6/cdp%20ga4%20landscape_230912_212508%20(1).jpg)
 
 Data Source
 The first step is to collect data from a variety of sources, such as website visits, app usage, email interactions, and social media activity. GA4 can collect data from all of these sources, and it can also be used to collect data from third-party sources, such as CRM systems and marketing platforms.
