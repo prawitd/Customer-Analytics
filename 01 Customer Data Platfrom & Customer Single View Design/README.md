@@ -22,6 +22,7 @@ Customer Single View (CSV) is used in the hotel booking business to consolidate 
 
 Below is a simplified sample dataset for hotel bookings:
 
+```
 CREATE TABLE HotelBookings (
     BookingID INT PRIMARY KEY,
     CustomerID INT,
@@ -52,9 +53,11 @@ VALUES
     (101, 1, '2023-09-15', '2023-09-20', 'Deluxe', 600.00, 'Confirmed'),
     (102, 2, '2023-09-18', '2023-09-22', 'Standard', 400.00, 'Confirmed'),
     (103, 3, '2023-09-20', '2023-09-25', 'Suite', 900.00, 'Pending');
+```
 
 To create a Customer Single View (CSV) in SQL using data from hotel bookings, you can use SQL queries to join relevant tables and select the required customer information. Here's an example SQL query to retrieve customer details and their booking history:
 
+```
 SELECT
     c.CustomerID,
     c.FirstName,
@@ -70,6 +73,7 @@ LEFT JOIN
     HotelBookings b ON c.CustomerID = b.CustomerID
 GROUP BY
     c.CustomerID, c.FirstName, c.LastName, c.Email, c.Phone, c.MembershipLevel;
+```
 
 This SQL query selects customer details from the "Customers" table and counts the number of bookings and retrieves the last check-out date using a LEFT JOIN with the "HotelBookings" table.
 It groups the results by customer ID and other relevant customer information.
